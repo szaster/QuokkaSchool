@@ -49,7 +49,7 @@ export function Header() {
           </IconButton>
 
           <Typography variant="h6" component="h1">
-            Random Password Generator
+            Quokka School
           </Typography>
 
           <section className={classes.rightToolbar}>
