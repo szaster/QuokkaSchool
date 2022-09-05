@@ -1,5 +1,5 @@
 import React from "react";
-import LockIcon from "@mui/icons-material/Lock";
+import SchoolRoundedIcon from "@mui/icons-material/SchoolRounded";
 import { makeStyles } from "@mui/styles";
 import { AppBar, Typography, Toolbar, IconButton } from "@mui/material";
 import { Link, useLocation, BrowserRouter as Router } from "react-router-dom";
@@ -45,10 +45,10 @@ export function Header() {
       <AppBar position="fixed">
         <Toolbar>
           <IconButton className={classes.menuButton} color="inherit">
-            <LockIcon />
+            <SchoolRoundedIcon />
           </IconButton>
 
-          <Typography variant="h6" component="h1">
+          <Typography variant="h6" component="h2">
             Quokka School
           </Typography>
 
