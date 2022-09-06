@@ -2,7 +2,7 @@ import React from "react";
 import SchoolRoundedIcon from "@mui/icons-material/SchoolRounded";
 import { makeStyles } from "@mui/styles";
 import { AppBar, Typography, Toolbar, IconButton } from "@mui/material";
-import { Link, useLocation, BrowserRouter as Router } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { BoxedThemeToggle } from "./BoxedThemeToggle";
 
 const useStyles = makeStyles(() => ({

@@ -1,4 +1,3 @@
-import React from "react";
 import { createTheme } from "@mui/material/styles";
 
 import { teal, red, grey } from "@mui/material/colors";
@@ -30,6 +29,7 @@ const dark = {
     secondary: grey[500],
   },
 };
+
 export function modeToTheme(mode) {
   const theme = mode === "light" ? light : dark;
   return createTheme({

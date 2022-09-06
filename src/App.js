@@ -1,12 +1,6 @@
 import React from "react";
 import "./App.css";
-import { ColorModeContext } from "./context";
-import { ThemeProvider } from "@mui/material/styles";
-import CssBaseline from "@mui/material/CssBaseline";
-import { Home, About, Header } from "./pages";
-import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
-import { modeToTheme } from "./theme";
-import { Button } from "@mui/material";
+import { Header } from "./pages";
 
 function App() {
   return (
