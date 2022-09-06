@@ -6,6 +6,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { Home, About, Header } from "./pages";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import { modeToTheme } from "./theme";
+import { Button } from "@mui/material";
 
 function App() {
   return (
@@ -13,7 +14,6 @@ function App() {
       <Header />
       <h1 className="f2-l">Bolus timer</h1>
       <input placeholder="type your BG" />
-
       <button className> Run timer </button>
     </div>
   );

@@ -1,17 +1,7 @@
 import React from "react";
 import { createTheme } from "@mui/material/styles";
 
-import {
-  teal,
-  green,
-  red,
-  pink,
-  amber,
-  grey,
-  deepOrange,
-  deepPurple,
-  purple,
-} from "@mui/material/colors";
+import { teal, red, grey } from "@mui/material/colors";
 
 const light = {
   // palette values for light mode
